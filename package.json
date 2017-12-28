@@ -1,0 +1,26 @@
+{
+  "name": "wifictl",
+  "version": "0.0.0",
+  "description": "Command line tool to configure wifi using wpa_supplicant",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-diff-stream": "^1.2.0",
+    "diffy": "^1.0.1",
+    "neat-input": "^1.4.0",
+    "wpa_supplicant": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/wifictl.git"
+  },
+  "bin": {
+    "wifictl": "./bin.js"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/wifictl/issues"
+  },
+  "homepage": "https://github.com/mafintosh/wifictl"
+}
