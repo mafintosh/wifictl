@@ -7,6 +7,8 @@ npm install -g wifictl
 sudo wifictl
 ```
 
+[![Build Status](https://travis-ci.org/mafintosh/wifictl.svg?branch=master)](https://travis-ci.org/mafintosh/wifictl)
+
 Powered by [diffy](https://github.com/mafintosh/diffy) and [wpa_supplicant](https://github.com/mafintosh/wpa_supplicant)
 
 ## Usage
