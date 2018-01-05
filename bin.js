@@ -164,6 +164,7 @@ function mappedNetworks () {
   var all = []
   for (var i = 0; i < wifi.networks.length; i++) {
     var n = wifi.networks[i]
+    if (!n.ssid) continue
     if (!grouped.length) {
       grouped.push(n)
     } else {
